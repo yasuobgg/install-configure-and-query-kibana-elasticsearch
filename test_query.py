@@ -1,6 +1,6 @@
 from elasticsearch import Elasticsearch
 
-es = Elasticsearch("http://10.14.170.43:9200")
+es = Elasticsearch("http://<VM_ip_address>:9200")
 # es.info().body
 
 resp = es.search(
